@@ -165,3 +165,27 @@ form button {
 form button:hover {
     background: #4954d0;
 }
+
+.alret{
+    background:#e44e4e
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border:1px solid #b32929;
+}
+
+#message{
+    background:#ff4e4e
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#alretbox{
+    position: fixed;
+    top: 20px;
+    left: 20%;
+    transform: translatex(-50%);
+    z-index: 999;
+}
+    
